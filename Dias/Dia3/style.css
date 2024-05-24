@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.text-clip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 15rem;
+}
+
+.text-clip h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+    background-image: url(img/Premium\ Photo\ _\ Beautiful\ northern\ lights\ landscape\ Aurora\ borealis\ above\ mountains\ reflected\ in\ the\ sea.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.img{
+    position: relative;
+    background: url(img/Premium\ Photo\ _\ Beautiful\ northern\ lights\ landscape\ Aurora\ borealis\ above\ mountains\ reflected\ in\ the\ sea.jpg);
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+}
+
+.img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: url(img/10-105219_mask-photoshop-hd-png-download.png);
+    width: 800px;
+    height: 600px;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: screen;
+}

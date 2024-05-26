@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    place-content: center;
+}
+
+
+img{
+    width: 200px;
+    height: 400px;
+    /*box-shadow: 20px 7px 5px #FFBE0C;*/
+    filter: drop-shadow(16px 7px 8px #FFBE0C);
+}

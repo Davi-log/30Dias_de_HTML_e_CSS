@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(cat_van.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav .logo{
+    position: absolute;
+    left: 5rem;
+}
+
+.logo a{
+    font-size: 1.5rem;
+    color: #dbd7d7;
+    text-decoration: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box{
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 5px;
+    padding: 4rem;
+}
+
+.text > h1{
+    color: rgba(250, 249, 246, 0.856);
+    font-size: 2.6rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+.text > h3{
+    color: #7662e9;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+.text > p{
+    color: rgba(255, 255, 255, 0.938);
+    line-height: 1.5rem;
+}

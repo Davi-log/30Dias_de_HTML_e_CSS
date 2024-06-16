@@ -5,15 +5,14 @@ body{
     align-items: center;
     min-height: 100vh;
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to bottom, #085A8C, #0fdcf7, #085A8C);
 }
 
 .main{
     width: 350px;
     height: 500px;
-    background: red;
     overflow: hidden;
-    background: pink;
+    background: rgb(0, 101, 252);
     border-radius: 10px;
     box-shadow: 5px 20px 50px #010101;
 }
@@ -59,7 +58,7 @@ button{
     justify-content: center;
     display: block;
     color: #fff;
-    background: #573b8a;
+    background: #0fdcf7;
     font-size: 1em;
     font-weight: bold;
     margin-top: 20px;
@@ -71,7 +70,7 @@ button{
 }
 
 button:hover{
-    background: #6d44b8;
+    background: #085A8C;
 }
 
 .login{
@@ -83,7 +82,7 @@ button:hover{
 }
 
 .login label{
-    color: #573b8a;
+    color: #0fdcf7;
     transform: scale(.6);
 }
 
